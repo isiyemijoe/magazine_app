@@ -52,7 +52,9 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: SvgPicture.asset("assets/svg/menu_icon.svg")),
         backgroundColor: Colors.white,
         elevation: 0,
-        title: Text(widget.title),
+        title: Text(widget.title,style: TextStyle(
+          color: Colors.black
+        ),),
         actions: [
           IconButton(
               icon: FaIcon(FontAwesomeIcons.search, color: Colors.black),
